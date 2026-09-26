@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "test": "vitest run",
     "deps:check": "npm audit --audit-level=high",
-    "cycles:check": "madge --circular --extensions ts src/composables"
+    "cycles:check": "madge --circular --extensions ts --webpack-config vite.config.ts src"
   },
   "dependencies": {
     "@lucide/vue": "^1.48.0",
@@ -23,6 +23,7 @@
     "@vitejs/plugin-vue": "^5.2.1",
     "eslint": "^10.11.0",
     "eslint-plugin-vue": "^10.11.1",
+    "fast-xml-parser": "^5.2.5",
     "globals": "^17.12.0",
     "madge": "^8.0.0",
     "typescript": "^5.7.2",
