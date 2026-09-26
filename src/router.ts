@@ -27,6 +27,45 @@ const routeMetadata = {
   },
 } as const
 
+const notFoundMetadata = {
+  title: 'Page Not Found | Propel Up',
+  description: 'The page you are looking for does not exist or may have moved.',
+}
+
+const updateMeta = (selector: string, attribute: string, attributeValue: string, content: string | null) => {
+  let element = document.querySelector<HTMLMetaElement>(selector)
+
+  if (content === null) {
+    element?.remove()
+    return
+  }
+
+  if (!element) {
+    element = document.createElement('meta')
+    element.setAttribute(attribute, attributeValue)
+    document.head.appendChild(element)
+  }
+
+  element.setAttribute('content', content)
+}
+
+const updateCanonical = (url: string | null) => {
+  let element = document.querySelector<HTMLLinkElement>('link[rel="canonical"]')
+
+  if (url === null) {
+    element?.remove()
+    return
+  }
+
+  if (!element) {
+    element = document.createElement('link')
+    element.rel = 'canonical'
+    document.head.appendChild(element)
+  }
+
+  element.href = url
+}
+
 const router = createRouter({
   history: createWebHistory(),
   routes: [
@@ -39,15 +78,17 @@ const router = createRouter({
 })
 
 router.afterEach((to) => {
-  const metadata = routeMetadata[to.path as keyof typeof routeMetadata] ?? routeMetadata['/']
+  const metadata = routeMetadata[to.path as keyof typeof routeMetadata] ?? notFoundMetadata
+  const isNotFound = !(to.path in routeMetadata)
   const url = `${siteUrl}${to.path === '/' ? '/' : to.path}`
 
   document.title = metadata.title
-  document.querySelector('meta[name="description"]')?.setAttribute('content', metadata.description)
-  document.querySelector('meta[property="og:title"]')?.setAttribute('content', metadata.title)
-  document.querySelector('meta[property="og:description"]')?.setAttribute('content', metadata.description)
-  document.querySelector('meta[property="og:url"]')?.setAttribute('content', url)
-  document.querySelector('link[rel="canonical"]')?.setAttribute('href', url)
+  updateMeta('meta[name="description"]', 'name', 'description', metadata.description)
+  updateMeta('meta[property="og:title"]', 'property', 'og:title', metadata.title)
+  updateMeta('meta[property="og:description"]', 'property', 'og:description', metadata.description)
+  updateMeta('meta[property="og:url"]', 'property', 'og:url', isNotFound ? null : url)
+  updateMeta('meta[name="robots"]', 'name', 'robots', isNotFound ? 'noindex,nofollow' : null)
+  updateCanonical(isNotFound ? null : url)
 })
 
 export default router
