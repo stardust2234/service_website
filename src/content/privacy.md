@@ -15,7 +15,7 @@ For the purposes of UK data protection law, Propel Up is the data controller for
 **Business:** Propel Up<br>
 **Owner:** [Brune Kicheta]<br>
 **Location:** United Kingdom<br>
-**Email:** [contact@propelup.co.uk]<br>
+**Email:** [contact@propelup.co.uk](mailto:contact@propelup.co.uk)<br>
 **Website:** [https://propelup.co.uk]
 
 If you have any questions about this policy or how your personal information is handled, please contact us using the details above.
@@ -162,7 +162,7 @@ Depending on the circumstances, UK data protection law may give you rights inclu
 
 These rights are subject to conditions and exemptions under applicable law.
 
-To exercise a right, contact us at **[contact@propelup.co.uk]**.
+To exercise a right, contact us at **[contact@propelup.co.uk](mailto:contact@propelup.co.uk)**.
 
 We may need to verify your identity before completing your request.
 

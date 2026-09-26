@@ -67,5 +67,5 @@ We will update the date at the top of this policy when material changes are made
 If you have questions about our use of cookies or similar technologies, contact:
 
 **Propel Up**<br>
-**Email:** [contact@propelup.co.uk]<br>
+**Email:** [contact@propelup.co.uk](mailto:contact@propelup.co.uk)<br>
 **Website:** [https://propelup.co.uk]

@@ -10,7 +10,7 @@ Propel Up is a UK-based business providing administrative, bookkeeping and virtu
 
 **Owner:** [Brune Kicheta]<br>
 **Trading as:** Propel Up<br>
-**Email:** [contact@propelup.co.uk]<br>
+**Email:** [contact@propelup.co.uk](mailto:contact@propelup.co.uk)<br>
 
 ## 2. Our services
 
@@ -173,5 +173,5 @@ The courts of England and Wales will have jurisdiction, subject to any mandatory
 Questions about these terms can be sent to:
 
 **Propel Up**<br>
-**Email:** [contact@propelup.co.uk]<br>
+**Email:** [contact@propelup.co.uk](mailto:contact@propelup.co.uk)<br>
 **Website:** [https://propelup.co.uk]
