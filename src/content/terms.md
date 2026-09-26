@@ -8,7 +8,7 @@ These terms set out the basis on which Propel Up provides administrative, bookke
 
 Propel Up is a UK-based business providing administrative, bookkeeping and virtual business support.
 
-**Owner:** [Brune Kicheta]<br>
+**Owner:** Brune Kicheta<br>
 **Trading as:** Propel Up<br>
 **Email:** [contact@propelup.co.uk](mailto:contact@propelup.co.uk)<br>
 
@@ -65,7 +65,7 @@ Where our work depends upon records or information supplied by you or another pa
 
 Fees will be communicated before paid work begins and may be calculated on an hourly, fixed-fee, recurring or other agreed basis.
 
-Invoices must be paid within **[30] days** unless another payment period has been agreed in writing.
+Invoices must be paid within **30 days** unless another payment period has been agreed in writing.
 
 Where an invoice remains unpaid after its due date, we may pause further work until outstanding amounts have been paid.
 
@@ -174,4 +174,4 @@ Questions about these terms can be sent to:
 
 **Propel Up**<br>
 **Email:** [contact@propelup.co.uk](mailto:contact@propelup.co.uk)<br>
-**Website:** [https://propelup.co.uk]
+**Website:** [https://propelup.co.uk](https://propelup.co.uk)

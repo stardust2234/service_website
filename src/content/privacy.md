@@ -13,10 +13,10 @@ Propel Up is a UK-based business providing administrative, bookkeeping and virtu
 For the purposes of UK data protection law, Propel Up is the data controller for personal information collected through this website and in connection with our services.
 
 **Business:** Propel Up<br>
-**Owner:** [Brune Kicheta]<br>
+**Owner:** Brune Kicheta<br>
 **Location:** United Kingdom<br>
 **Email:** [contact@propelup.co.uk](mailto:contact@propelup.co.uk)<br>
-**Website:** [https://propelup.co.uk]
+**Website:** [https://propelup.co.uk](https://propelup.co.uk)
 
 If you have any questions about this policy or how your personal information is handled, please contact us using the details above.
 

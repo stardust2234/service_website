@@ -68,4 +68,4 @@ If you have questions about our use of cookies or similar technologies, contact:
 
 **Propel Up**<br>
 **Email:** [contact@propelup.co.uk](mailto:contact@propelup.co.uk)<br>
-**Website:** [https://propelup.co.uk]
+**Website:** [https://propelup.co.uk](https://propelup.co.uk)
