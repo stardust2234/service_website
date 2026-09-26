@@ -14,7 +14,7 @@
 .orbit-two { height: 330px; left: 24%; top: 13%; transform: rotate(29deg); width: 390px; }
 .sun-shape { background: var(--blue); border-radius: 50%; height: 255px; left: 34%; position: absolute; top: 18%; width: 255px; }
 .art-label { color: var(--cream); font-size: 27px; left: 47%; line-height: 1.05; position: absolute; text-align: center; top: 38%; transform: rotate(-8deg); z-index: 2; }
-.art-label em { color: #a0b5e3; font-size: 39px; }
+.art-label em { color: var(--ink); font-size: 39px; }
 .art-note { align-items: center; background: var(--cream); color: var(--ink); display: flex; font-family: 'DM Mono', monospace; font-size: 14px; gap: 10px; letter-spacing: .04em; line-height: 1.35; padding: 11px 15px; position: absolute; text-transform: uppercase; z-index: 3; }
 .art-note strong { font-family: 'DM Sans', sans-serif; font-size: 14px; letter-spacing: -.04em; text-transform: none; }
 .note-one { left: 3%; top: 25%; transform: rotate(-8deg); }
