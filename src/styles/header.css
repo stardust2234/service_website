@@ -1,0 +1,11 @@
+.topbar { align-items: center; border-bottom: 1px solid var(--line); display: flex; justify-content: space-between; padding: 29px 0; }
+.brand { align-items: center; display: flex; font-size: 17px; font-weight: 700; gap: 11px; letter-spacing: -.04em; }
+.brand-dot { color: var(--accent); }
+.brand-mark { align-items: end; display: flex; gap: 3px; height: 18px; transform: skew(-17deg); }
+.brand-mark span { background: var(--accent); display: block; height: 100%; width: 4px; }
+.brand-mark span:nth-child(2) { height: 73%; opacity: .75; }
+.brand-mark span:nth-child(3) { height: 45%; opacity: .48; }
+.nav-right { align-items: center; display: flex; }
+.availability, .eyebrow { color: var(--muted); font-family: 'DM Mono', monospace; font-size: 12px; letter-spacing: .1em; line-height: 1.5; text-transform: uppercase; }
+.availability { align-items: center; display: flex; gap: 8px; }
+.status-dot { background: var(--accent); border-radius: 50%; box-shadow: 0 0 0 4px rgba(224,99,21,.1); height: 6px; width: 6px; }
