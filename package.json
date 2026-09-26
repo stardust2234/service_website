@@ -6,7 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "deps:check": "npm audit --audit-level=high",
+    "cycles:check": "madge --circular --extensions ts src/composables"
   },
   "dependencies": {
     "@lucide/vue": "^1.48.0",
@@ -15,9 +19,17 @@
     "vue-router": "^4.6.4"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@vitejs/plugin-vue": "^5.2.1",
+    "eslint": "^10.11.0",
+    "eslint-plugin-vue": "^10.11.1",
+    "globals": "^17.12.0",
+    "madge": "^8.0.0",
     "typescript": "^5.7.2",
+    "typescript-eslint": "^8.70.1",
     "vite": "^6.0.5",
+    "vitest": "^5.0.2",
+    "vue-eslint-parser": "^10.4.1",
     "vue-tsc": "^2.2.0"
   }
 }

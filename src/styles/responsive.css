@@ -1,0 +1,17 @@
+@media (max-width: 750px) {
+  .site-shell { padding: 0 22px; }
+  .availability { display: none; }
+  .hero { display: block; min-height: 0; padding: 75px 0 45px; }
+  .hero h1 { font-size: clamp(2.6rem, 12vw, 4.5rem); margin-top: 35px; }
+  .hero-art { margin: 20px -18px 0; min-height: 370px; transform: scale(.85); transform-origin: top center; }
+  .services, .contact-panel { display: block; padding: 70px 0; }
+  .section-heading { margin-bottom: 55px; }
+  .service-summary { grid-template-columns: 35px 1fr 20px; }
+  .service-detail { margin-left: 55px; }
+  .contact-panel { margin: 0 -22px; padding: 65px 22px; }
+  .contact-action { margin-top: 45px; }
+  .footer { align-items: flex-start; flex-direction: column; gap: 11px; }
+  .footer-links { flex-wrap: wrap; gap: 8px 16px; }
+  .privacy-notice { max-width: 100%; }
+  .legal-content { padding: 60px 0 80px; }
+ }

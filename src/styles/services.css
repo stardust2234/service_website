@@ -1,0 +1,11 @@
+.services { border-top: 1px solid var(--line); display: grid; gap: 9vw; grid-template-columns: .75fr 1.25fr; padding: 95px 0 120px; }
+.section-heading h2 { font-size: clamp(3rem, 5vw, 5rem); margin: 35px 0 0; }
+.service-list { border-top: 1px solid var(--line); }
+.service-item { border-bottom: 1px solid var(--line); padding: 25px 0; }
+.service-summary { align-items: center; cursor: pointer; display: grid; gap: 20px; grid-template-columns: 40px 1fr 20px; list-style: none; }
+.service-summary::-webkit-details-marker { display: none; }
+.service-icon { color: var(--accent); display: inline-flex; }
+.service-title { font-size: 20px; font-weight: 500; letter-spacing: -.04em; }
+.service-detail { color: var(--muted); font-size: 14px; line-height: 1.5; margin: 18px 40px 0 60px; max-width: 560px; }
+.service-arrow { color: var(--accent); font-size: 20px; transition: transform .2s ease; }
+.service-item:hover .service-arrow, .service-item[open] .service-arrow { transform: translate(3px, -3px); }

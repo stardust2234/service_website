@@ -1,0 +1,14 @@
+.contact-panel { background: var(--accent); color: var(--ink); display: grid; gap: 10vw; grid-template-columns: 1.1fr .9fr; padding: 75px 7%; }
+.eyebrow-dark { color: #452d26; }
+.eyebrow-dark .eyebrow-line { background: var(--ink); }
+.contact-panel h2 { font-size: clamp(3rem, 5.5vw, 6rem); margin: 40px 0 0; }
+.contact-panel h2 em { color: var(--ink); }
+.contact-action { align-self: end; max-width: 330px; }
+.contact-action p { font-size: 16px; line-height: 1.6; margin: 0 0 28px; }
+.footer { color: var(--muted); display: flex; font: 12px/1.5 'DM Mono', monospace; justify-content: space-between; letter-spacing: .1em; padding: 25px 0 30px; text-transform: uppercase; }
+.footer-links { display: flex; gap: 16px; }
+.footer-links a { color: var(--muted); opacity: .8; }
+.footer-links a:hover { opacity: 1; }
+.privacy-notice { color: inherit; font-family: inherit; font-size: inherit; letter-spacing: inherit; max-width: 390px; text-transform: inherit; }
+.privacy-notice summary { color: inherit; cursor: pointer; font: inherit; }
+.privacy-notice p { color: inherit; font: inherit; line-height: 1.55; margin: 12px 0 0; }
