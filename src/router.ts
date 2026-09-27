@@ -5,30 +5,31 @@ import NotFoundView from './views/NotFoundView.vue'
 import cookies from './content/cookies.md?raw'
 import privacy from './content/privacy.md?raw'
 import terms from './content/terms.md?raw'
+import { siteConfig } from './config'
 
-const siteUrl = 'https://propelup.co.uk'
+const siteUrl = siteConfig.websiteUrl
 
 const routeMetadata = {
   '/': {
-    title: 'Propel Up | Business support that keeps you moving',
+    title: `${siteConfig.businessName} | Business support that keeps you moving`,
     description: 'Flexible admin, customer support, invoicing and bookkeeping for busy small businesses.',
   },
   '/cookies': {
-    title: 'Cookie Policy | Propel Up',
-    description: 'Read the Propel Up cookie policy and learn how cookies and similar technologies are used on our website.',
+    title: `Cookie Policy | ${siteConfig.businessName}`,
+    description: `Read the ${siteConfig.businessName} cookie policy and learn how cookies and similar technologies are used on our website.`,
   },
   '/privacy': {
-    title: 'Privacy Policy | Propel Up',
-    description: 'Read the Propel Up privacy policy and learn how personal information is collected, used and protected.',
+    title: `Privacy Policy | ${siteConfig.businessName}`,
+    description: `Read the ${siteConfig.businessName} privacy policy and learn how personal information is collected, used and protected.`,
   },
   '/terms': {
-    title: 'Terms & Conditions | Propel Up',
-    description: 'Read the terms and conditions governing Propel Up administrative, bookkeeping and virtual business support services.',
+    title: `Terms & Conditions | ${siteConfig.businessName}`,
+    description: `Read the terms and conditions governing ${siteConfig.businessName} administrative, bookkeeping and virtual business support services.`,
   },
 } as const
 
 const notFoundMetadata = {
-  title: 'Page Not Found | Propel Up',
+  title: `Page Not Found | ${siteConfig.businessName}`,
   description: 'The page you are looking for does not exist or may have moved.',
 }
 

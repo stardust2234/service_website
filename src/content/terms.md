@@ -2,15 +2,15 @@
 
 **Last updated: 26 September 2026**
 
-These terms set out the basis on which Propel Up provides administrative, bookkeeping and virtual business support services.
+These terms set out the basis on which {{BUSINESS_NAME}} provides administrative, bookkeeping and virtual business support services.
 
-## 1. About Propel Up
+## 1. About {{BUSINESS_NAME}}
 
-Propel Up is a UK-based business providing administrative, bookkeeping and virtual business support.
+{{BUSINESS_NAME}} is a {{LOCATION}}-based business providing administrative, bookkeeping and virtual business support.
 
-**Owner:** Brune Kicheta<br>
-**Trading as:** Propel Up<br>
-**Email:** [contact@propelup.co.uk](mailto:contact@propelup.co.uk)<br>
+**Owner:** {{OWNER_NAME}}<br>
+**Trading as:** {{BUSINESS_NAME}}<br>
+**Email:** [{{BUSINESS_EMAIL}}](mailto:{{BUSINESS_EMAIL}})<br>
 
 ## 2. Our services
 
@@ -22,7 +22,7 @@ Nothing displayed on our website constitutes a guarantee that we will accept a p
 
 ## 3. Introductory calls
 
-An introductory call is intended to allow us to understand your requirements and determine whether Propel Up may be able to assist you.
+An introductory call is intended to allow us to understand your requirements and determine whether {{BUSINESS_NAME}} may be able to assist you.
 
 Booking or attending an introductory call does not create a client relationship or oblige either party to proceed.
 
@@ -55,7 +55,7 @@ You must tell us promptly if information you have provided changes or you become
 
 Where bookkeeping support is provided, our role is limited to the services specifically agreed with you.
 
-Unless expressly agreed otherwise, Propel Up does not provide regulated financial advice, investment advice, legal advice, audit services or tax advice.
+Unless expressly agreed otherwise, {{BUSINESS_NAME}} does not provide regulated financial advice, investment advice, legal advice, audit services or tax advice.
 
 You remain responsible for your business's financial decisions and for ensuring that statutory filings, tax returns, payments and other regulatory obligations are completed correctly and on time unless responsibility for a particular task has expressly been included within our agreed scope.
 
@@ -77,7 +77,7 @@ Introductory calls may be cancelled or rescheduled using the booking facility wh
 
 For paid appointments or booked work, any cancellation terms communicated when the work is agreed will apply.
 
-If Propel Up needs to cancel or reschedule an appointment, we will make reasonable efforts to provide notice and arrange an alternative.
+If {{BUSINESS_NAME}} needs to cancel or reschedule an appointment, we will make reasonable efforts to provide notice and arrange an alternative.
 
 ## 9. Confidentiality
 
@@ -104,9 +104,9 @@ Access should be withdrawn when it is no longer required.
 
 Each party must comply with applicable data protection law when handling personal information in connection with the services.
 
-Depending on the nature of an engagement, additional data-processing terms may be required where Propel Up processes personal information on behalf of a client.
+Depending on the nature of an engagement, additional data-processing terms may be required where {{BUSINESS_NAME}} processes personal information on behalf of a client.
 
-Information collected directly by Propel Up for its own business purposes is handled in accordance with our Privacy Policy.
+Information collected directly by {{BUSINESS_NAME}} for its own business purposes is handled in accordance with our Privacy Policy.
 
 ## 12. Intellectual property
 
@@ -114,7 +114,7 @@ Each party retains ownership of intellectual property it owned before the engage
 
 Unless otherwise agreed, once all applicable fees have been paid, you may use deliverables created specifically for you for the business purposes for which they were provided.
 
-Propel Up retains ownership of its pre-existing templates, processes, methodologies, tools, systems and general know-how.
+{{BUSINESS_NAME}} retains ownership of its pre-existing templates, processes, methodologies, tools, systems and general know-how.
 
 ## 13. Third-party services
 
@@ -136,7 +136,7 @@ Unless expressly agreed otherwise in writing, dates and times are estimates rath
 
 Nothing in these terms excludes or limits liability where doing so would be unlawful, including liability for fraud or fraudulent misrepresentation or for death or personal injury caused by negligence.
 
-Subject to applicable law, Propel Up will not be responsible for indirect or consequential losses or losses resulting from inaccurate, incomplete or late information supplied by the client.
+Subject to applicable law, {{BUSINESS_NAME}} will not be responsible for indirect or consequential losses or losses resulting from inaccurate, incomplete or late information supplied by the client.
 
 Any additional limitation of liability appropriate to a particular engagement may be specified in the relevant quotation, proposal or service agreement.
 
@@ -172,6 +172,6 @@ The courts of England and Wales will have jurisdiction, subject to any mandatory
 
 Questions about these terms can be sent to:
 
-**Propel Up**<br>
-**Email:** [contact@propelup.co.uk](mailto:contact@propelup.co.uk)<br>
-**Website:** [https://propelup.co.uk](https://propelup.co.uk)
+**{{BUSINESS_NAME}}**<br>
+**Email:** [{{BUSINESS_EMAIL}}](mailto:{{BUSINESS_EMAIL}})<br>
+**Website:** [{{WEBSITE_URL}}]({{WEBSITE_URL}})

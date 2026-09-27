@@ -2,21 +2,21 @@
 
 **Last updated: 26 September 2026**
 
-Propel Up respects your privacy and is committed to protecting your personal information.
+{{BUSINESS_NAME}} respects your privacy and is committed to protecting your personal information.
 
 This privacy policy explains what information we collect, why we collect it, how we use it, who we may share it with, and the rights you have under UK data protection law.
 
 ## 1. Who we are
 
-Propel Up is a UK-based business providing administrative, bookkeeping and virtual business support services.
+{{BUSINESS_NAME}} is a {{LOCATION}}-based business providing administrative, bookkeeping and virtual business support services.
 
-For the purposes of UK data protection law, Propel Up is the data controller for personal information collected through this website and in connection with our services.
+For the purposes of UK data protection law, {{BUSINESS_NAME}} is the data controller for personal information collected through this website and in connection with our services.
 
-**Business:** Propel Up<br>
-**Owner:** Brune Kicheta<br>
-**Location:** United Kingdom<br>
-**Email:** [contact@propelup.co.uk](mailto:contact@propelup.co.uk)<br>
-**Website:** [https://propelup.co.uk](https://propelup.co.uk)
+**Business:** {{BUSINESS_NAME}}<br>
+**Owner:** {{OWNER_NAME}}<br>
+**Location:** {{LOCATION}}<br>
+**Email:** [{{BUSINESS_EMAIL}}](mailto:{{BUSINESS_EMAIL}})<br>
+**Website:** [{{WEBSITE_URL}}]({{WEBSITE_URL}})
 
 If you have any questions about this policy or how your personal information is handled, please contact us using the details above.
 
@@ -31,7 +31,7 @@ Depending on how you interact with us, we may collect:
 - business sector;
 - information you provide when making an enquiry;
 - information you provide when booking an introductory call;
-- correspondence between you and Propel Up;
+- correspondence between you and {{BUSINESS_NAME}};
 - information necessary to provide services to you;
 - billing, transaction and payment-related information where applicable; and
 - limited technical information generated when you access our website.
@@ -91,7 +91,7 @@ We use Cal.com to provide our online appointment-booking facility.
 
 When you choose to book an appointment, you may be asked to provide information such as your name, email address, business information and answers to booking questions.
 
-Propel Up determines why this booking information is collected and how it is used in connection with our business. Cal.com processes booking information on our behalf as a service provider.
+{{BUSINESS_NAME}} determines why this booking information is collected and how it is used in connection with our business. Cal.com processes booking information on our behalf as a service provider.
 
 Cal.com may process personal information outside the United Kingdom, including in the United States. Appropriate safeguards are used where required by applicable data protection law.
 
@@ -162,7 +162,7 @@ Depending on the circumstances, UK data protection law may give you rights inclu
 
 These rights are subject to conditions and exemptions under applicable law.
 
-To exercise a right, contact us at **[contact@propelup.co.uk](mailto:contact@propelup.co.uk)**.
+To exercise a right, contact us at **[{{BUSINESS_EMAIL}}](mailto:{{BUSINESS_EMAIL}})**.
 
 We may need to verify your identity before completing your request.
 
