@@ -1,10 +1,14 @@
+<script setup lang="ts">
+import { siteConfig } from '../config'
+</script>
+
 <template>
   <div class="site-shell">
     <a class="skip-link" href="#main-content">Skip to content</a>
 
     <header class="topbar">
       <nav aria-label="Main navigation">
-        <RouterLink class="brand" to="/" aria-label="Propel Up home">
+        <RouterLink class="brand" to="/" :aria-label="`${siteConfig.businessName} home`">
           <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
           <span>propel<span class="brand-dot">.</span>up</span>
         </RouterLink>

@@ -2,7 +2,7 @@
 
 **Last updated: 26 September 2026**
 
-This cookie policy explains how Propel Up uses cookies and similar technologies on our website.
+This cookie policy explains how {{BUSINESS_NAME}} uses cookies and similar technologies on our website.
 
 ## 1. What are cookies?
 
@@ -12,11 +12,11 @@ Similar technologies, including local storage, may also be used to provide websi
 
 Some technologies are necessary for a website or service to work, while others may be used for purposes such as analytics, personalisation or advertising.
 
-## 2. How Propel Up uses cookies
+## 2. How {{BUSINESS_NAME}} uses cookies
 
 We aim to keep our use of cookies and similar technologies to a minimum.
 
-We do not currently use advertising or behavioural-tracking cookies on the Propel Up website.
+We do not currently use advertising or behavioural-tracking cookies on the {{BUSINESS_NAME}} website.
 
 We do not currently use third-party advertising pixels such as Meta Pixel.
 
@@ -24,13 +24,13 @@ Where cookies or similar technologies are strictly necessary to provide function
 
 ## 3. Appointment booking
 
-Propel Up uses Cal.com to provide online appointment booking.
+{{BUSINESS_NAME}} uses Cal.com to provide online appointment booking.
 
 When you choose to use the booking service, Cal.com may use cookies or similar browser technologies that are necessary to provide the booking functionality, maintain security or remember relevant preferences.
 
 Cal.com is a third-party service and its use of cookies and similar technologies is also governed by its own privacy and cookie information.
 
-Where possible, Propel Up aims to load third-party booking functionality in response to your interaction with the booking service rather than using it for unrelated tracking purposes.
+Where possible, {{BUSINESS_NAME}} aims to load third-party booking functionality in response to your interaction with the booking service rather than using it for unrelated tracking purposes.
 
 ## 4. Website security and delivery
 
@@ -38,11 +38,11 @@ We use Cloudflare to help deliver and protect our website.
 
 Cloudflare may use cookies or similar technologies where necessary for security, network management, fraud or abuse prevention, and reliable delivery of the website.
 
-These technologies are not used by Propel Up for behavioural advertising.
+These technologies are not used by {{BUSINESS_NAME}} for behavioural advertising.
 
 ## 5. Analytics and advertising
 
-Propel Up does not currently use cookies for behavioural advertising or cross-site tracking.
+{{BUSINESS_NAME}} does not currently use cookies for behavioural advertising or cross-site tracking.
 
 If we introduce optional analytics, advertising or other non-essential technologies in the future, we will review this policy and implement an appropriate consent mechanism where required.
 
@@ -66,6 +66,6 @@ We will update the date at the top of this policy when material changes are made
 
 If you have questions about our use of cookies or similar technologies, contact:
 
-**Propel Up**<br>
-**Email:** [contact@propelup.co.uk](mailto:contact@propelup.co.uk)<br>
-**Website:** [https://propelup.co.uk](https://propelup.co.uk)
+**{{BUSINESS_NAME}}**<br>
+**Email:** [{{BUSINESS_EMAIL}}](mailto:{{BUSINESS_EMAIL}})<br>
+**Website:** [{{WEBSITE_URL}}]({{WEBSITE_URL}})
