@@ -1,5 +1,5 @@
 .contact-panel { background: var(--accent); color: var(--ink); display: grid; gap: 10vw; grid-template-columns: 1.1fr .9fr; padding: 75px 7%; }
-.eyebrow-dark { color: rgba(16,25,47,.68); }
+.eyebrow-dark { color: var(--ink); }
 .eyebrow-dark .eyebrow-line { background: var(--ink); }
 .contact-panel h2 { font-size: clamp(3rem, 5.5vw, 6rem); margin: 40px 0 0; }
 .contact-panel h2 em { color: var(--ink); }
