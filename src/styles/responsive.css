@@ -8,10 +8,12 @@
   .section-heading { margin-bottom: 55px; }
   .service-summary { grid-template-columns: 35px 1fr 20px; }
   .service-detail { margin-left: 55px; }
+  .service-tasks { grid-template-columns: 1fr; margin-left: 55px; }
   .contact-panel { margin: 0 -22px; padding: 65px 22px; }
   .contact-action { margin-top: 45px; }
   .footer { align-items: flex-start; flex-direction: column; gap: 11px; }
   .footer-links { flex-wrap: wrap; gap: 8px 16px; }
-  .privacy-notice { max-width: 100%; }
+  .nav-right { gap: 12px; }
+  .nav-right .resources-link { font-size: 10px; }
   .legal-content { padding: 60px 0 80px; }
  }
