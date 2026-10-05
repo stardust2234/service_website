@@ -6,6 +6,10 @@
 .service-summary::-webkit-details-marker { display: none; }
 .service-icon { color: var(--accent); display: inline-flex; }
 .service-title { font-size: 20px; font-weight: 500; letter-spacing: -.04em; }
+.service-label { color: var(--accent); display: block; font: 11px 'DM Mono', monospace; letter-spacing: .04em; margin-top: 7px; text-transform: uppercase; }
 .service-detail { color: var(--muted); font-size: 14px; line-height: 1.5; margin: 18px 40px 0 60px; max-width: 560px; }
+.service-tasks { display: grid; gap: 11px; grid-template-columns: repeat(2, minmax(0, 1fr)); list-style: none; margin: 25px 40px 0 60px; padding: 0; }
+.service-tasks li { font-size: 14px; line-height: 1.45; padding-left: 18px; position: relative; }
+.service-tasks li::before { color: var(--accent); content: '→'; left: 0; position: absolute; }
 .service-arrow { color: var(--accent); font-size: 20px; transition: transform .2s ease; }
 .service-item:hover .service-arrow, .service-item[open] .service-arrow { transform: translate(3px, -3px); }

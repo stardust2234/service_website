@@ -11,6 +11,9 @@ describe('sitemap', () => {
   it('includes every public route', () => {
     expect(routes).toEqual(new Set([
       'https://propelup.co.uk/',
+       'https://propelup.co.uk/tools',
+       'https://propelup.co.uk/articles',
+       'https://propelup.co.uk/articles/drowning-in-business-admin',
       'https://propelup.co.uk/cookies',
       'https://propelup.co.uk/privacy',
       'https://propelup.co.uk/terms',
