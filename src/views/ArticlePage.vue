@@ -3,11 +3,18 @@ import { computed } from 'vue'
 import { marked } from 'marked'
 import SiteFooter from '../components/SiteFooter.vue'
 import SiteHeader from '../components/SiteHeader.vue'
-import { articles, getArticleContent } from '../content/articleIndex'
+import { articles } from '../content/articleIndex'
 
 const props = defineProps<{ slug: string }>()
 const article = computed(() => articles.find((item) => item.slug === props.slug))
-const content = computed(() => article.value ? getArticleContent(article.value.slug) : undefined)
+const articleContent = import.meta.glob('../content/articles/*.md', {
+  eager: true,
+  import: 'default',
+  query: '?raw',
+}) as Record<string, string>
+const content = computed(() => article.value
+  ? articleContent[`../content/articles/${article.value.contentFile}`]
+  : undefined)
 const renderedContent = computed(() => content.value ? marked.parse(content.value) : '')
 </script>
 

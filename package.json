@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
+    "build": "vue-tsc --noEmit && vite build && vite build --ssr src/entry-server.ts --outDir .prerender && node scripts/prerender.mjs",
     "preview": "vite preview",
     "lint": "eslint .",
     "test": "vitest run",
@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@lucide/vue": "^1.48.0",
+    "@vue/server-renderer": "^3.5.43",
     "marked": "^15.0.12",
     "vue": "^3.5.13",
     "vue-router": "^4.6.4"

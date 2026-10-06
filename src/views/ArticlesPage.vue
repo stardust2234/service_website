@@ -17,12 +17,13 @@ import { articles } from '../content/articleIndex'
       </div>
 
       <section class="article-preview" aria-labelledby="article-preview-title">
+        <h2 id="article-preview-title" class="sr-only">Available articles</h2>
         <div class="article-grid">
           <article v-for="(article, index) in articles.slice(0, 2)" :key="article.slug" class="article-card">
-            <span class="article-number">0{{ index + 1 }}</span>
+            <span class="article-number">{{ String(index + 1).padStart(2, '0') }}</span>
             <h3>{{ article.title }}</h3>
-            <RouterLink v-if="index === 0" class="article-link" :to="`/articles/${article.slug}`">Read article <span aria-hidden="true">↗</span></RouterLink>
-            <p v-else>Coming soon <span aria-hidden="true">↗</span></p>
+            <a v-if="index === 0" class="article-link" :href="`/articles/${article.slug}`">Read article <span aria-hidden="true">↗</span></a>
+            <p v-else class="article-link">Coming soon</p>
           </article>
         </div>
       </section>
