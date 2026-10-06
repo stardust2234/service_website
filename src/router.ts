@@ -162,7 +162,7 @@ export const createAppRouter = (ssr = false) => {
   updateMeta('meta[property="og:title"]', 'property', 'og:title', metadata.title)
   updateMeta('meta[property="og:description"]', 'property', 'og:description', metadata.description)
   updateMeta('meta[property="og:url"]', 'property', 'og:url', isNotFound ? null : url)
-  updateMeta('meta[name="robots"]', 'name', 'robots', isNotFound ? 'noindex,nofollow' : null)
+  updateMeta('meta[name="robots"]', 'name', 'robots', isNotFound ? 'noindex,nofollow' : 'index,follow')
   updateCanonical(isNotFound ? null : url)
   updateStructuredData(isNotFound ? null : structuredData)
   })
