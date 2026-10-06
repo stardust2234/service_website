@@ -44,7 +44,7 @@ const services = [
         <summary class="service-summary">
           <span class="service-icon"><component :is="service.icon" :size="20" :stroke-width="1.6" aria-hidden="true" /></span>
           <span>
-            <span class="service-title" role="heading" aria-level="3">{{ service.title }}</span>
+            <h3 class="service-title">{{ service.title }}</h3>
             <span class="service-label">{{ service.label }}</span>
           </span>
           <span class="service-arrow" aria-hidden="true">↗</span>
