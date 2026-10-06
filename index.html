@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#10192f" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM-readable site summary" />
     <link rel="canonical" href="https://propelup.co.uk/" />
     <title>Propel Up | Business support that keeps you moving</title>
     <meta name="description" content="Flexible admin, customer support, invoicing and bookkeeping for busy small businesses." />
@@ -13,12 +14,30 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://propelup.co.uk/" />
     <meta property="og:site_name" content="Propel Up" />
+    <meta name="author" content="Brune Kicheta" />
+    <meta name="format-detection" content="telephone=no" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Propel Up | Business support that keeps you moving" />
     <meta name="twitter:description" content="Flexible admin, customer support, invoicing and bookkeeping for busy small businesses." />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Propel Up",
+        "url": "https://propelup.co.uk/",
+        "email": "contact@propelup.co.uk",
+        "description": "Flexible admin, customer support, invoicing and bookkeeping for busy small businesses.",
+        "areaServed": "United Kingdom",
+        "founder": {
+          "@type": "Person",
+          "name": "Brune Kicheta"
+        },
+        "sameAs": ["https://propelup.co.uk/"]
+      }
+    </script>
   </head>
   <body>
     <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
+    <script type="module" src="/src/main.ts" fetchpriority="low"></script>
   </body>
 </html>

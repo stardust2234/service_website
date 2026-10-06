@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;700&family=Playfair+Display:ital,wght@0,500;1,500&display=swap');
-
 :root {
   color: #f7f3ea;
   background: #10192f;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'DM Sans', Arial, Helvetica, sans-serif;
   font-synthesis: none;
   line-height: 1.5;
   --ink: #10192f;
