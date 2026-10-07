@@ -7,6 +7,7 @@
 .brand-mark span:nth-child(3) { height: 45%; opacity: .48; }
 .nav-right { align-items: center; display: flex; gap: 28px; }
 .resources-link { border-bottom: 1px solid var(--accent); color: var(--cream); font-family: 'DM Mono', monospace; font-size: 12px; letter-spacing: .1em; padding-bottom: 4px; text-transform: uppercase; }
+.resources-link:hover, .resources-link:focus-visible { color: var(--accent); }
 .availability, .eyebrow { color: var(--muted); font-family: 'DM Mono', monospace; font-size: 12px; letter-spacing: .1em; line-height: 1.5; text-transform: uppercase; }
 .availability { align-items: center; display: flex; gap: 8px; }
 .status-dot { background: var(--accent); border-radius: 50%; box-shadow: 0 0 0 4px rgba(224,99,21,.1); height: 6px; width: 6px; }

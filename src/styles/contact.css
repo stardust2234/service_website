@@ -8,4 +8,4 @@
 .footer { color: var(--muted); display: flex; font: 12px/1.5 'DM Mono', monospace; justify-content: space-between; letter-spacing: .1em; padding: 25px 0 30px; text-transform: uppercase; }
 .footer-links { display: flex; gap: 16px; }
 .footer-links a { color: var(--muted); opacity: .8; }
-.footer-links a:hover { opacity: 1; }
+.footer a:hover, .footer a:focus-visible { color: var(--accent); opacity: 1; }
