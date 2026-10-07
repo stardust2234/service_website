@@ -2,6 +2,7 @@
 import { computed } from 'vue'
 import { marked } from 'marked'
 import { siteConfig } from '../config'
+import SiteFooter from '../components/SiteFooter.vue'
 
 const props = defineProps<{ content: string }>()
 const renderedContent = computed(() => {
@@ -36,13 +37,6 @@ const renderedContent = computed(() => {
       <article class="legal-document" v-html="renderedContent"></article>
     </main>
 
-    <footer class="footer">
-      <span>© {{ new Date().getFullYear() }} {{ siteConfig.businessName }}</span>
-      <nav class="footer-links" aria-label="Legal information">
-        <RouterLink to="/cookies">Cookies</RouterLink>
-        <RouterLink to="/privacy">Privacy policy</RouterLink>
-        <RouterLink to="/terms">T&amp;C policy</RouterLink>
-      </nav>
-    </footer>
+    <SiteFooter />
   </div>
 </template>
