@@ -29,13 +29,11 @@ const renderedContent = computed(() => content.value ? marked.parse(content.valu
       <h1>{{ article?.title ?? 'Article not found' }}</h1>
       <div class="article-body" v-html="renderedContent"></div>
 
-      <template v-if="article?.slug === 'drowning-in-business-admin'">
-        <RouterLink class="article-tool-link" to="/tools">Try the Admin calculator <span aria-hidden="true">↗</span></RouterLink>
-        <div class="article-cta">
-          <p>A 20-minute introduction is enough to talk through what's currently taking up your time and where support could make things easier.</p>
-          <a class="button button-primary" href="https://cal.com/propelup/20min">Book a 20-minute introduction <span aria-hidden="true">↗</span></a>
-        </div>
-      </template>
+      <RouterLink v-if="article?.slug === 'drowning-in-business-admin'" class="article-tool-link" to="/tools">Try the Admin calculator <span aria-hidden="true">↗</span></RouterLink>
+      <div v-if="article" class="article-cta">
+        <p>A 20-minute introduction is enough to talk through what's currently taking up your time and where support could make things easier.</p>
+        <a class="button button-primary" href="https://cal.com/propelup/20min">Book a 20-minute introduction <span aria-hidden="true">↗</span></a>
+      </div>
     </main>
 
     <SiteFooter />
