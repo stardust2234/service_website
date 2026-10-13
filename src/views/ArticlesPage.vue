@@ -22,8 +22,7 @@ import { articles } from '../content/articleIndex'
           <article v-for="(article, index) in articles.slice(0, 2)" :key="article.slug" class="article-card">
             <span class="article-number">{{ String(index + 1).padStart(2, '0') }}</span>
             <h3>{{ article.title }}</h3>
-            <a v-if="index === 0" class="article-link" :href="`/articles/${article.slug}`">Read article <span aria-hidden="true">↗</span></a>
-            <p v-else class="article-link">Coming soon</p>
+            <a class="article-link" :href="`/articles/${article.slug}`">Read article <span aria-hidden="true">↗</span></a>
           </article>
         </div>
       </section>
