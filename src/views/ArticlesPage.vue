@@ -19,7 +19,7 @@ import { articles } from '../content/articleIndex'
       <section class="article-preview" aria-labelledby="article-preview-title">
         <h2 id="article-preview-title" class="sr-only">Available articles</h2>
         <div class="article-grid">
-          <article v-for="(article, index) in articles.slice(0, 2)" :key="article.slug" class="article-card">
+          <article v-for="(article, index) in articles.slice(0, 3)" :key="article.slug" class="article-card">
             <span class="article-number">{{ String(index + 1).padStart(2, '0') }}</span>
             <h3>{{ article.title }}</h3>
             <a class="article-link" :href="`/articles/${article.slug}`">Read article <span aria-hidden="true">↗</span></a>

@@ -33,6 +33,12 @@ const renderedContent = computed(() => content.value ? marked.parse(content.valu
       <div v-if="article" class="article-cta">
         <p>A 20-minute introduction is enough to talk through what's currently taking up your time and where support could make things easier.</p>
         <a class="button button-primary" href="https://cal.com/propelup/20min">Book a 20-minute introduction <span aria-hidden="true">↗</span></a>
+       
+      <blockquote><small><q>
+        This article provides general information only and isn't accounting, tax or financial advice. Your circumstances may differ, so seek appropriate professional advice where needed.</q>
+      </small></blockquote>
+
+      
       </div>
     </main>
 
