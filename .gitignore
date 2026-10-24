@@ -4,6 +4,13 @@ node_modules/
 # Production build output
 dist/
 
+# Legacy Vue source retained outside the active React app
+/srcr/
+
+# Generated deployment and temporary config files
+.wrangler/
+*.timestamp-*.mjs
+
 # Local environment files
 .env
 .env.*
@@ -20,6 +27,3 @@ dist/
 # OS files
 .DS_Store
 Thumbs.db
-
-# Sentry Config File
-.env.sentry-build-plugin

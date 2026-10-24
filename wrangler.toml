@@ -1,9 +1,6 @@
 name = "service-website"
 compatibility_flags = ["nodejs_compat"]
 compatibility_date = "2026-10-12"
-main = "src/index.ts"
-
 [assets]
 directory = "./dist"
-binding = "ASSETS"
 not_found_handling = "single-page-application"

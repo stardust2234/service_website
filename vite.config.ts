@@ -1,16 +1,17 @@
-import { sentryVitePlugin } from "@sentry/vite-plugin";
-import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react-swc";
+import { componentTagger } from "lovable-tagger";
 
-export default defineConfig({
-  plugins: [vue(), sentryVitePlugin({
-    org: "libranode",
-    project: "propelup-website"
-  })],
-
-  envPrefix: ['VITE_', 'BUSINESS_EMAIL', 'BUSINESS_NAME', 'WEBSITE_URL', 'OWNER_NAME', 'LOCATION'],
-
-  build: {
-    sourcemap: true
-  }
-})
+// https://vitejs.dev/config/
+export default defineConfig(({ mode }) => ({
+  server: {
+    host: "::",
+    port: 8080,
+  },
+  plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
+  resolve: {
+    alias: {
+      "@": `${import.meta.dirname}/src`,
+    },
+  },
+}));

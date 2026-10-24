@@ -16,13 +16,9 @@ describe('sitemap', () => {
        'https://propelup.co.uk/articles/drowning-in-business-admin',
        'https://propelup.co.uk/articles/bookkeeper-vs-accountant',
        'https://propelup.co.uk/articles/chase-an-unpaid-invoice',
-       'https://propelup.co.uk/articles/do-i-need-a-virtual-assistant',
-       'https://propelup.co.uk/articles/diy-bookkeeping',
-       'https://propelup.co.uk/articles/virtual-assistant-cost-uk',
-       'https://propelup.co.uk/articles/what-should-you-delegate-first',
-       'https://propelup.co.uk/articles/organise-business-receipts',
-      'https://propelup.co.uk/cookies',
-      'https://propelup.co.uk/privacy',
+      'https://propelup.co.uk/career',
+      'https://propelup.co.uk/cookie-policy',
+      'https://propelup.co.uk/privacy-policy',
       'https://propelup.co.uk/terms',
     ]))
   })
