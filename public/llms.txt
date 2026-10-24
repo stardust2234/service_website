@@ -24,20 +24,16 @@
 - [Home](https://propelup.co.uk/): overview of Propel Up and its services.
 - [Tools](https://propelup.co.uk/tools): an admin calculator for estimating time spent on recurring tasks.
 - [Articles](https://propelup.co.uk/articles): practical guidance about business administration, bookkeeping, delegation, and virtual assistance.
+- [Career](https://propelup.co.uk/career): opportunities to work with Propel Up.
 
 ## Articles
 
 - [Drowning in business admin? 12 tasks you don't need to do yourself](https://propelup.co.uk/articles/drowning-in-business-admin)
 - [Bookkeeper vs accountant: which do you actually need?](https://propelup.co.uk/articles/bookkeeper-vs-accountant)
 - [How to chase an unpaid invoice without making it awkward](https://propelup.co.uk/articles/chase-an-unpaid-invoice)
-- [Do I need a virtual assistant? 8 signs it's time](https://propelup.co.uk/articles/do-i-need-a-virtual-assistant)
-- [DIY bookkeeping: what a sole trader actually needs to keep track of](https://propelup.co.uk/articles/diy-bookkeeping)
-- [How much does a virtual assistant cost in the UK?](https://propelup.co.uk/articles/virtual-assistant-cost-uk)
-- [What should you delegate first?](https://propelup.co.uk/articles/what-should-you-delegate-first)
-- [How to organise your business receipts without the paperwork nightmare](https://propelup.co.uk/articles/organise-business-receipts)
 
 ## Policies
 
-- [Privacy policy](https://propelup.co.uk/privacy)
-- [Cookie policy](https://propelup.co.uk/cookies)
+- [Privacy policy](https://propelup.co.uk/privacy-policy)
+- [Cookie policy](https://propelup.co.uk/cookie-policy)
 - [Terms and conditions](https://propelup.co.uk/terms)
