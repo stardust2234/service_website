@@ -16,6 +16,7 @@ describe('sitemap', () => {
        'https://propelup.co.uk/articles/drowning-in-business-admin',
        'https://propelup.co.uk/articles/bookkeeper-vs-accountant',
        'https://propelup.co.uk/articles/chase-an-unpaid-invoice',
+       'https://propelup.co.uk/articles/do-i-need-a-virtual-assistant',
       'https://propelup.co.uk/career',
       'https://propelup.co.uk/cookie-policy',
       'https://propelup.co.uk/privacy-policy',
