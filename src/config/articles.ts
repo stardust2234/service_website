@@ -2,6 +2,8 @@ type ArticleFrontmatter = {
   number: string;
   title: string;
   published: string;
+  publishedDate?: string;
+  updatedDate?: string;
 };
 
 export type Article = ArticleFrontmatter & {
@@ -51,12 +53,17 @@ export const articles: Article[] = Object.entries(articleFiles)
     // Draft/placeholder files are not included until they have metadata.
     if (!data.number || !data.title || data.published !== "true") return null;
 
-    return {
+    const article: Article = {
       number: data.number,
       title: data.title,
+      published: data.published,
       slug: slugFromPath(path),
+      publishedDate: data.publishedDate || undefined,
+      updatedDate: data.updatedDate || undefined,
       content,
     };
+
+    return article;
   })
   .filter((article): article is Article => article !== null)
   .sort((first, second) => first.number.localeCompare(second.number));
